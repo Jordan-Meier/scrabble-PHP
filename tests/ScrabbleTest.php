@@ -34,9 +34,21 @@
 
             //Assert
             $this->assertEquals(1, $result);
+        }
+
+        function test_findScore_scoreOfTwo()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $word = "d";
 
 
+            //Act
+            $result = $test_Scrabble->findScore($word);
 
+
+            //Assert
+            $this->assertEquals(2, $result);
         }
 
 
