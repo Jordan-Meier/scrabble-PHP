@@ -137,7 +137,20 @@
             $this->assertEquals(10, $result);
         }
 
+        function test_findScore_wordRepeatingLetters()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $word = "bookkeeper";
 
+
+            //Act
+            $result = $test_Scrabble->findScore($word);
+
+
+            //Assert
+            $this->assertEquals(22, $result);
+        }
 
     }
 
