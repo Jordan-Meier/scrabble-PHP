@@ -78,6 +78,21 @@
             //Assert
             $this->assertEquals(4, $result);
         }
+        function test_findScore_scoreOfFive()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $word = "k";
+
+
+            //Act
+            $result = $test_Scrabble->findScore($word);
+
+
+            //Assert
+            $this->assertEquals(5, $result);
+        }
+
 
 
     }
