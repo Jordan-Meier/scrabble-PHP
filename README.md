@@ -1,11 +1,12 @@
-# TITLE
+# Scrabble Score
 
 ## Epicodus PHP, Week 2: BDD Practice
 
-### By: Jordan Meier
+### By: Jordan Meier & Jon Nardine
 
 ### Description
 
+A website where a user can enter a scrabble word and get the score for that word back.
 
 
 ### Known Bugs
@@ -39,7 +40,7 @@ php -S localhost:8000
 
 ###Copyright & Licensing
 
-Copyright (c) 2015 **Jordan Meier**
+Copyright (c) 2015 **Jordan Meier & Jon Nardine**
 
 *This software is licensed under the MIT license.*
 
