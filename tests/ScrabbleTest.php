@@ -21,6 +21,24 @@
 
         }
 
+        function test_findScore_scoreOfOne()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $word = "a";
+
+
+            //Act
+            $result = $test_Scrabble->findScore($word);
+
+
+            //Assert
+            $this->assertEquals(1, $result);
+
+
+
+        }
+
 
     }
 
