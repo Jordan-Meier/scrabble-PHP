@@ -92,6 +92,34 @@
             //Assert
             $this->assertEquals(5, $result);
         }
+        function test_findScore_scoreOfEight()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $word = "j";
+
+
+            //Act
+            $result = $test_Scrabble->findScore($word);
+
+
+            //Assert
+            $this->assertEquals(8, $result);
+        }
+        function test_findScore_scoreOfTen()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $word = "q";
+
+
+            //Act
+            $result = $test_Scrabble->findScore($word);
+
+
+            //Assert
+            $this->assertEquals(10, $result);
+        }
 
 
 

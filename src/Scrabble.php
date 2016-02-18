@@ -27,6 +27,12 @@
                 elseif ($letter == 'k') {
                     $score .= 5;
                 }
+                elseif ($letter == 'j' || $letter == 'x') {
+                    $score .= 8;
+                }
+                elseif ($letter == 'q' || $letter == 'z') {
+                    $score .= 10;
+                }
             }
             return $score;
         }
