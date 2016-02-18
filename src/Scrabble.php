@@ -21,6 +21,9 @@
                 elseif ($letter == 'b' || $letter == 'c' || $letter == 'm' || $letter == 'p') {
                     $score .= 3;
                 }
+                elseif ($letter == 'f' || $letter == 'h' || $letter == 'v' || $letter == 'w' || $letter == 'y') {
+                    $score .= 4;
+                }
             }
             return $score;
         }

@@ -64,6 +64,20 @@
             //Assert
             $this->assertEquals(3, $result);
         }
+        function test_findScore_scoreOfFour()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $word = "f";
+
+
+            //Act
+            $result = $test_Scrabble->findScore($word);
+
+
+            //Assert
+            $this->assertEquals(4, $result);
+        }
 
 
     }
