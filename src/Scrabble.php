@@ -16,22 +16,22 @@
                     ++$score;
                 }
                 elseif ($letter == 'd' || $letter == 'g') {
-                    $score .= 2;
+                    $score += 2;
                 }
                 elseif ($letter == 'b' || $letter == 'c' || $letter == 'm' || $letter == 'p') {
-                    $score .= 3;
+                    $score += 3;
                 }
                 elseif ($letter == 'f' || $letter == 'h' || $letter == 'v' || $letter == 'w' || $letter == 'y') {
-                    $score .= 4;
+                    $score += 4;
                 }
                 elseif ($letter == 'k') {
-                    $score .= 5;
+                    $score += 5;
                 }
                 elseif ($letter == 'j' || $letter == 'x') {
-                    $score .= 8;
+                    $score += 8;
                 }
                 elseif ($letter == 'q' || $letter == 'z') {
-                    $score .= 10;
+                    $score += 10;
                 }
             }
             return $score;
