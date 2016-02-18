@@ -50,6 +50,20 @@
             //Assert
             $this->assertEquals(2, $result);
         }
+        function test_findScore_scoreOfThree()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $word = "b";
+
+
+            //Act
+            $result = $test_Scrabble->findScore($word);
+
+
+            //Assert
+            $this->assertEquals(3, $result);
+        }
 
 
     }

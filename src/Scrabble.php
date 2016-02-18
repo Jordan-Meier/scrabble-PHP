@@ -18,6 +18,9 @@
                 elseif ($letter == 'd' || $letter == 'g') {
                     $score .= 2;
                 }
+                elseif ($letter == 'b' || $letter == 'c' || $letter == 'm' || $letter == 'p') {
+                    $score .= 3;
+                }
             }
             return $score;
         }
